@@ -1,0 +1,18 @@
+Base64 Encoding:
+Base64 is a binary-to-text encoding scheme that represents binary data in an ASCII string format. It's commonly used to transmit binary data across channels that only reliably support text content. 
+Pega Platform Usage:
+Pega uses Base64 encoding for several purposes:
+Storing objects in Rule-File-Binary rules. 
+Storing file attachments to work objects. 
+Storing scanned documents (TIFF images). 
+
+Base64Encode() Function:
+This function, part of the PegaRULES Default library, is used to convert objects to Base64 encoded strings. 
+
+Base64Decode() Function:
+To reverse the encoding process (converting a Base64 string back to the original data), you would use the Base64Decode() function
+
+In summary, to encode data to Base64 in Pega, use the Base64Encode() function, which is part of the PegaRULES Default library. To decode, use the Base64Decode() function. 
+
+
+
