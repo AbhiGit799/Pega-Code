@@ -1,0 +1,17 @@
+In Pega, Code-Pega-Requestor is a class that represents a requestor session, containing information about the user's access roles, ruleset list, and protocol parameters, created upon login. 
+
+What it is:
+Code-Pega-Requestor is a named page class that holds information about a user's session, including their access roles, ruleset list, and TCP/HTTP protocol parameters. 
+
+When it's created:
+A Code-Pega-Requestor page is created when a user logs into the Pega application. 
+
+How to access it:
+You can access the Code-Pega-Requestor page through the clipboard, or by using properties like pyUserName and pyUserPortals. 
+
+
+
+
+
+
+
